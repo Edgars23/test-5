@@ -1,0 +1,173 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Template: twentyseventeen
+Author: Edgars
+Author URI: http://test5.morganelectro.com.ua/
+Description: Twenty Seventeen Child
+Tags: one-column,two-columns,right-sidebar,flexible-header,accessibility-ready,custom-colors,custom-header,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.1.1485344943
+Updated: 2017-01-25 11:49:03
+
+*/
+
+
+/*Product page*/
+.single-product div.product form.cart {
+    margin-bottom: 30px;
+}
+/*Product page*/
+
+/*Footer info section*/
+.footer-info {
+    float: right;
+    width: 40%;
+    text-align: left;
+}
+.contact-tel {
+    padding: 0;
+    margin: 0 0 5px 0;
+    line-height: 1.5;
+    color: #000;
+    font-size: 15px;
+}
+.contact-tel a {
+
+}
+.contact-tel a:hover {
+
+}
+.contact-email {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    color: #000;
+    font-size: 15px;
+}
+.contact-email a {
+
+}
+.contact-email a:hover {
+
+}
+.contact-btn {
+   margin-top: 15px;
+}
+.contact-btn a {
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+.contact-btn a:hover {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+}
+.popup-active {
+    display: block!important;
+}
+.popup-section {
+    background: rgba(34, 34, 34, 0.8);
+    bottom: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.popup-content {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #222;
+    margin: 0 auto;
+    width: 500px;
+    padding: 15px 30px 40px;
+    position: relative;
+    top: 21.4%;
+    text-align: left;
+}
+.popup-content p {
+    font-size: 15px;
+    line-height: 1.3;
+    color: #000;
+    padding: 0;
+    margin: 5px 0 5px 0;
+}
+.close-x {
+    float: right;
+}
+.close-x a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: none;
+}
+.close-x a:hover {
+    text-decoration: none;
+    box-shadow: none;
+}
+.info-section-mobile {
+    display: none;
+}
+.info-section-desktop {
+    display: block;
+}
+/*Footer info section*/
+
+
+
+
+/*mobile styles*/
+
+@media screen and (max-width: 640px) {
+    .footer-info {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .info-section-mobile {
+        display: block;
+    }
+    .info-section-desktop {
+        display: none;
+    }
+    .contact-email a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .contact-email {
+        background: #000;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .contact-tel {
+        background: #000;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+    }
+    .contact-tel a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .contact-btn {
+        margin-top: 20px;
+        background: #000;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+    .popup-content {
+        width: 100%;
+        text-align: center;
+    }
+}

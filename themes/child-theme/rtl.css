@@ -1,0 +1,28 @@
+.has-sidebar:not(.error404) #primary {
+    float: right!important;
+
+}
+.has-sidebar #secondary {
+    float: left!important;
+}
+.thumbnails {
+    position: relative;
+}
+.thumbnails a img {
+    position: absolute;
+    right: 0;
+    width: 30%;
+}
+.single-product .woocommerce-product-rating .star-rating {
+    float: right;
+}
+.site-footer .widget .product_list_widget li a.remove, .widget .product_list_widget li a.remove {
+    float: left;
+}
+.widget_product_search .search-field {
+    padding-right: 10px;
+}
+.widget_product_search input[type=submit] {
+    left: .5em;
+
+}
